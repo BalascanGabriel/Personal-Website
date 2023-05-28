@@ -1,77 +1,77 @@
-                            * {
-                                margin: 0;
-                                padding: 0;
-                                box-sizing: border-box;
-                            }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-                            html {
-                                scroll-behavior: smooth;
-                            }
+html {
+    scroll-behavior: smooth;
+}
 
-                            body {
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                /*height: 100vh;*/
-                                background: url("./media/back.jpeg");
-                                background-position: 0 0;
-                                background-size: 100% 100vh;
-                            }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+    background: url("./media/back.jpeg");
+    background-position: 0 0;
+    background-size: 100% 100vh;
+}
 
-                            a {
-                                text-decoration: none;
-                                color: white;
-                            }
+a {
+    text-decoration: none;
+    color: white;
+}
 
-                            .content {
-                                height: 100vh;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                color: white;
-                            }
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
-                            .content .title,
-                            .content .description,
-                            .content .social {
-                                margin: 20px 0;
-                            }
+.content .title,
+.content .description,
+.content .social {
+    margin: 20px 0;
+}
 
-                            .content .title {
-                                font-size: 54px;
-                                font-weight: 700;
-                                font-family: 'Courier New', Courier, monospace;
-                            }
+.content .title {
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
 
-                            .content .description {
-                                font-size: initial;
-                                font-weight: 300;
-                                letter-spacing: 2px;
-                            }
+.content .description {
+    font-size: initial;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
 
-                            .content .social {
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: center;
-                                text-align: center;
-                            }
+.content .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
 
-                            .content .social .socialbutton {
-                                display: flex;
-                                width: 75px;
-                                height: 75px;
-                                padding: 3ch;
-                                margin: 0 2ch;
-                                border: 1px solid white;
-                                border-radius: 50%;
-                                justify-content: center;
-                                align-items: center;
-                                text-align: center;
-                            }
+.content .social .socialbutton {
+    display: flex;
+    width: 75px;
+    height: 75px;
+    padding: 3ch;
+    margin: 0 2ch;
+    border: 1px solid white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-                            /*#animatedBackground {
+/*#animatedBackground {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -93,208 +93,208 @@
   }
 }*/
 
-                            .submenu {
-                                /*position: fixed;*/
-                                /*bottom: 10px;*/
-                                /*right: 10px;*/
-                                margin-top: 2ch;
-                                display: flex;
-                                flex-direction: row;
-                            }
+.submenu {
+    /*position: fixed;*/
+    /*bottom: 10px;*/
+    /*right: 10px;*/
+    margin-top: 2ch;
+    display: flex;
+    flex-direction: row;
+}
 
-                            .submenu .buttona {
-                                margin: 0px 5px;
-                                padding: 10px 40px;
-                                text-align: center;
-                                text-decoration: none;
-                                color: #fff;
-                                border: 1px solid white;
-                            }
+.submenu .buttona {
+    margin: 0px 5px;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+}
 
-                            .wrapper {
-                                display: flex;
-                                padding-right: 10px;
-                                padding-left: 10px;
-                                border: 2px solid white;
-                            }
+.wrapper {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid white;
+}
 
-                            .wrapper .element {
-                                float: left;
-                                border: 2px solid white;
-                            }
+.wrapper .element {
+    float: left;
+    border: 2px solid white;
+}
 
-                            .content-wrapper {
-                                width: 100%;
-                                min-width: 90vw;
-                                height: 100vh;
-                                min-height: 90vh;
-                                margin: 0;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                            }
+.content-wrapper {
+    width: 100%;
+    min-width: 90vw;
+    height: 100vh;
+    min-height: 90vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-                            .content-wrapper .content {
-                                width: 70%;
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: center;
-                                align-items: center;
-                            }
+.content-wrapper .content {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
-                            .content-wrapper .content .left-pg {
-                                width: 50%;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                            }
+.content-wrapper .content .left-pg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-                            .content-wrapper .content .right-pg {
-                                width: 50%;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                            }
+.content-wrapper .content .right-pg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-                            .content-wrapper .content .text {
-                                color: white;
-                                font-size: 25px;
-                                line-height: 38px;
-                            }
+.content-wrapper .content .text {
+    color: white;
+    font-size: 25px;
+    line-height: 38px;
+}
 
-                            .content-wrapper .content img {
-                                width: 100%;
-                            }
+.content-wrapper .content img {
+    width: 100%;
+}
 
-                            .content-wrapper p {
-                                margin: 20px;
-                                padding: 15px 0;
-                                font-size: 35px;
-                                color: white;
-                                font-weight: 700;
-                            }
+.content-wrapper p {
+    margin: 20px;
+    padding: 15px 0;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
 
-                            .index-side-menu {
-                                position: fixed;
-                                background: black;
-                                top: calc(50% - 100px);
-                                left: -155px;
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: center;
-                                align-items: center;
-                                transition: all 1s ease;
-                            }
+.index-side-menu {
+    position: fixed;
+    background: black;
+    top: calc(50% - 100px);
+    left: -155px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+}
 
-                            body .active {
-                                left: 0;
-                            }
+body .active {
+    left: 0;
+}
 
-                            .index-side-menu ul {
-                                list-style: none;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: left;
-                                padding: 0;
-                                margin: 0;
-                            }
+.index-side-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 0;
+    margin: 0;
+}
 
-                            .index-side-menu ul li {
-                                padding: 15px 30px;
-                                text-transform: uppercase;
-                                color: white;
-                                font-weight: 600;
-                                font-size: 17px;
-                            }
+.index-side-menu ul li {
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
 
-                            .index-side-menu ul li:hover,
-                            .index-side-menu ul li:hover a {
-                                color: gold;
-                                background: black;
-                            }
+.index-side-menu ul li:hover,
+.index-side-menu ul li:hover a {
+    color: gold;
+    background: black;
+}
 
-                            .index-side-menu ul li a {
-                                text-decoration: none;
-                                color: white;
-                            }
+.index-side-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
 
-                            .index-side-menu ul li a:hover {
-                                color: gold;
-                            }
+.index-side-menu ul li a:hover {
+    color: gold;
+}
 
-                            .index-side-menu .before-toggle {
-                                width: 0;
-                                background: #3C3B3F;
-                            }
+.index-side-menu .before-toggle {
+    width: 0;
+    background: #3C3B3F;
+}
 
-                            .index-side-menu .before-toggle p {
-                                width: 100%;
-                                word-break: break-all;
-                                padding: 0 10px;
-                                text-transform: uppercase;
-                                color: white;
-                                font-weight: 600;
-                                font-size: 17px;
-                            }
+.index-side-menu .before-toggle p {
+    width: 100%;
+    word-break: break-all;
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
 
-                            .column {
-                                float: left;
-                                width: 25%;
-                                padding: 0 10px;
-                            }
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
 
-                            /* Remove extra left and right margins, due to padding in columns */
+/* Remove extra left and right margins, due to padding in columns */
 
-                            .row {
-                                margin: 0 -5px;
-                            }
+.row {
+    margin: 0 -5px;
+}
 
-                            /* Clear floats after the columns */
+/* Clear floats after the columns */
 
-                            .row:after {
-                                content: "";
-                                display: table;
-                                clear: both;
-                            }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-                            /* Style the counter cards */
+/* Style the counter cards */
 
-                            .card {
-                                box-shadow: 0 4px 8px 0 wheat;
-                                /* this adds the "card" effect */
-                                padding: 16px;
-                                text-align: center;
-                                height: 300px;
-                            }
+.card {
+    box-shadow: 0 4px 8px 0 wheat;
+    /* this adds the "card" effect */
+    padding: 12px;
+    text-align: center;
+    height: 350px;
+}
 
-                            .card h1 {
-                                color: white;
-                                font-size: medium;
-                            }
+.card h1 {
+    color: white;
+    font-size: medium;
+}
 
-                            .card p {
-                                color: white;
-                                font-size: small;
-                            }
+.card p {
+    color: white;
+    font-size: small;
+}
 
-                            @media screen and (max-width: 992px) {
-                                .index-side-menu {
-                                    display: none;
-                                }
+@media screen and (max-width: 992px) {
+    .index-side-menu {
+        display: none;
+    }
 
-                                .card {
-                                    box-shadow: 0 4px 8px 0 wheat;
-                                    /* this adds the "card" effect */
-                                    padding: 16px;
-                                    text-align: center;
-                                    height: 400px;
-                                }
-                            }
+    .card {
+        box-shadow: 0 4px 8px 0 wheat;
+        /* this adds the "card" effect */
+        padding: 16px;
+        text-align: center;
+        height: 400px;
+    }
+}
 
-                            /* Responsive columns - one column layout (vertical) on small screens */
-                            /* @media screen and (max-width: 600px) {
+/* Responsive columns - one column layout (vertical) on small screens */
+/* @media screen and (max-width: 600px) {
     .column {
         width: 100%;
         display: block;
